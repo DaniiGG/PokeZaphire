@@ -1,0 +1,76 @@
+.login-container {
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   align-items: center;
+
+}
+form div{
+    margin: 20px;
+}
+form button{
+    margin: 0 20px;
+}
+.social-login-buttons{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 40px;
+}
+.google-login img, .github-login img{
+    width: 30px;
+    height: 30px;
+}
+
+.custom-form {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.custom-form input[type="email"],
+.custom-form input[type="password"],
+.custom-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.custom-form button.login-button {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.custom-form button.login-button:hover{
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #007bff;;
+}
+
+.google-login, .github-login{
+    border:1px solid #fff;
+    background: linear-gradient(to bottom right, #0000006e, #9b9b9b67);
+}
+
+.google-login:hover, .github-login:hover{
+    border:1px solid #fff;
+    background: linear-gradient(to bottom right,#9b9b9b67, #0000006e);
+}
+.error-message{
+    padding: 10px;
+    border: 2px solid red;
+    background-color: rgba(248, 100, 100, 0.815);
+}
