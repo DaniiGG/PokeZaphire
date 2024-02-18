@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import app from "./firebase";
-import './login.css';
+import './css/login.css';
 
 function Registrar() {
     const [username, setUsername] = useState("");

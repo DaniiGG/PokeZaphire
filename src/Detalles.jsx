@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import StatsChart from './StatsChart'; // Importa el componente StatsChart
-import './Detalles.css';
+import './css/detalles.css';
 
 function Detalles(){
 

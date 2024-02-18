@@ -1,4 +1,4 @@
-import './footer.css';
+import './css/footer.css';
 
 function Footer() {
     return (
@@ -22,9 +22,9 @@ function Footer() {
           <div className="footer-section">
             <h3>Redes sociales</h3>
             <ul className="social-icons">
-              <li><a href="#"><img src="../src/assets/insta.png"/></a></li>
-              <li><a href="#"><img src="../src/assets/facebook.png"/></a></li>
-              <li><a href="#"><img src="../src/assets/twitter.png"/></a></li>
+              <li><a href="#"><img src="../public/insta.png"/></a></li>
+              <li><a href="#"><img src="../public/facebook.png"/></a></li>
+              <li><a href="#"><img src="../public/twitter.png"/></a></li>
             </ul>
           </div>
         </div>

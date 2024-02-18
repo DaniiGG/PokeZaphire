@@ -5,7 +5,7 @@ import { firestore } from './firebase';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 import {  query, where, getDocs, doc, setDoc, updateDoc } from 'firebase/firestore';
 
-import './minijuego.css';
+import './css/minijuego.css';
 
 function Minijuego() {
     const [pokemon, setPokemon] = useState(null);

@@ -1,6 +1,6 @@
 .elemento-con-fondo {
     /* Imagen de fondo */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../src/assets/OpcionPortada2.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('./public/OpcionPortada2.png');
     
     height: 100vh; /* Altura de ejemplo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
@@ -23,7 +23,7 @@ h1, li{
   .inicio li {
     margin-top: 10px;
     padding-left: 20px; /* Añade un espacio para la imagen */
-    background: url('../src/assets/pokeball.gif') left center no-repeat; /* Especifica la imagen como marcador de lista */
+    background: url('./public/pokeball.gif') left center no-repeat; /* Especifica la imagen como marcador de lista */
     background-size: 16px 16px;
   }
 

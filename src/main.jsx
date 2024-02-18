@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { Link } from "react-router-dom";
-import './index.css'
+import './css/index.css'
 import * as React from "react";
 import { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";

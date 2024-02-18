@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getAuth, onAuthStateChanged, signOut as firebaseSignOut } from "firebase/auth";
-import './header.css';
+import './css/header.css';
 
 function Navegacion() {
   const [user, setUser] = useState(null);
@@ -36,7 +36,7 @@ function Navegacion() {
       <nav className="menu">
         <div className="inicio">
           <Link  to="/" >
-            <img height={40} src="../src/assets/titulo.png"/>
+            <img height={40} src="../public/titulo.png"/>
           </Link>
         </div>
         <div>

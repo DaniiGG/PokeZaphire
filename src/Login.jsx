@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import app from "./firebase";
 import { useState } from "react";
-import './login.css';
+import './css/login.css';
 
 function Login() {
     const navigate = useNavigate();
@@ -117,8 +117,8 @@ function Login() {
             </form>
             
             <div className="social-login-buttons">
-                <button className="google-login" onClick={logueoGoogle}><img src="../src/assets/google.png"/></button>
-                <button className="github-login" onClick={github}><img src="../src/assets/GitHub.png"/></button>
+                <button className="google-login" onClick={logueoGoogle}><img src="../public/google.png"/></button>
+                <button className="github-login" onClick={github}><img src="../public/GitHub.png"/></button>
             </div>
             <p>¿No tienes cuenta?<Link to="/register" >Regístrate</Link></p>
         </div>
